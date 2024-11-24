@@ -1,93 +1,91 @@
-# Advanced PortChecker
+# 高级端口检查器
 
-![Advanced PortChecker](https://i.imgur.com/vdt1sXZ.png)
+![高级端口检查器](https://i.imgur.com/vdt1sXZ.png)
 
-![GitHub](https://img.shields.io/badge/language-JavaScript+Rust-green)
+![GitHub](https://img.shields.io/badge/语言-JavaScript+Rust-绿色)
 ![GitHub](https://img.shields.io/github/license/CodeDead/Advanced-PortChecker)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/CodeDead/Advanced-PortChecker)
-[![Test](https://github.com/CodeDead/Advanced-PortChecker/actions/workflows/test.yml/badge.svg)](https://github.com/CodeDead/Advanced-PortChecker/actions/workflows/test.yml)
-[![Release](https://github.com/CodeDead/Advanced-PortChecker/actions/workflows/release.yml/badge.svg)](https://github.com/CodeDead/Advanced-PortChecker/actions/workflows/release.yml)
+![GitHub发布（按日期最新）](https://img.shields.io/github/v/release/CodeDead/Advanced-PortChecker)
+[![测试](https://github.com/CodeDead/Advanced-PortChecker/actions/workflows/test.yml/badge.svg)](https://github.com/CodeDead/Advanced-PortChecker/actions/workflows/test.yml)
+[![发布](https://github.com/CodeDead/Advanced-PortChecker/actions/workflows/release.yml/badge.svg)](https://github.com/CodeDead/Advanced-PortChecker/actions/workflows/release.yml)
 
-Advanced PortChecker is a free and open-source application that can help you check if ports are open or closed on a certain host. You can check multiple ports at once and export the results in plain text, CSV or JSON format!
+高级端口检查器是一款免费的开源应用程序，可帮助您检查特定主机上的端口是打开还是关闭状态。您可以一次性检查多个端口，并将结果以纯文本、CSV或JSON格式导出！
 
-## Building
+## 构建
 
-Advanced PortChecker uses tauri to build the desktop application. You can find more information about Tauri [here](https://tauri.app/v1/guides/).
+高级端口检查器使用Tauri来构建桌面应用程序。您可以在此处[https://tauri.app/v1/guides/](https://tauri.app/v1/guides/)找到有关Tauri的更多信息。
 
-For more information about building using `vite`, please read the `Vite` documentation [here](https://vitejs.dev/guide/build.html).
+有关使用`vite`进行构建的更多信息，请阅读此处[https://vitejs.dev/guide/build.html](https://vitejs.dev/guide/build.html)的`Vite`文档。
 
-### Development
+### 开发
 
-You can start a development preview by running the `yarn tdev` command:
+您可以通过运行`yarn tdev`命令来启动开发预览：
 ```shell
 yarn tdev
 ```
 
-### Windows
+### Windows系统
 
-#### Installer
+#### 安装程序
 
-You can create an executable installer by running the `yarn tbuild` command on a Windows host:
+您可以通过在Windows主机上运行`yarn tbuild`命令来创建一个可执行的安装程序：
 ```shell
 yarn tbuild
 ```
 
-### Linux
+### Linux系统
 
-#### deb
+#### deb格式
 
-You can create a .deb file, by running the `yarn tbuild` command on a Linux host:
+您可以通过在Linux主机上运行`yarn tbuild`命令来创建一个.deb文件：
 ```shell
 yarn tbuild
 ```
 
-#### AppImage
+#### AppImage格式
 
-You can create an [AppImage](https://appimage.github.io/) by executing the `yarn tbuild` command on a Linux host:
+您可以通过在Linux主机上执行`yarn tbuild`命令来创建一个[AppImage](https://appimage.github.io/)文件：
 ```shell
 yarn tbuild
 ```
 
-### macOS
+### macOS系统
 
-#### dmg
+#### dmg格式
 
-You can create a macOS build by running the `yarn tbuild` command on a macOS host:
+您可以通过在macOS主机上运行`yarn tbuild`命令来创建一个macOS版本的构建：
 ```shell
 yarn tbuild
 ```
 
-#### Archive
+#### 归档文件
 
-You can create a macOS build by running the `yarn tbuild` command on a macOS host:
+您可以通过在macOS主机上运行`yarn tbuild`命令来创建一个macOS版本的构建：
 ```shell
 yarn tbuild
 ```
 
-## Credits
+## 鸣谢
+
+## 中文维护
+本项目由[天无神话](https://github.com/2031301686)提供中文语言，它的博客地址为：[https://wxsnote.cn/](https://wxsnote.cn/)
 
 ### Tauri
-
-This project uses [Tauri](https://tauri.app/) to create a cross-platform application.
+本项目使用[Tauri](https://tauri.app/)来创建跨平台应用程序。
 
 ### ReactJS
+本项目使用[React](https://reactjs.org/)来创建用户界面。
 
-This project uses [React](https://reactjs.org/) to create the user interface.
+### 主题
+本应用程序中使用的主题是[MUI](https://mui.com/)。
 
-### Theme
+### 图片
+应用程序图标（及其衍生图标）由[RemixIcon](https://remixicon.com/)提供。
+所有其他图片由[MUI](https://mui.com/material-ui/material-icons/)提供。
 
-The theme used in this application is [MUI](https://mui.com/).
+## 关于我们
+这个库由CodeDead维护。您可以通过以下链接了解更多关于我们的信息：
+* [网站](https://codedead.com/)
+* [推特](https://twitter.com/C0DEDEAD/)
+* [脸书](https://facebook.com/deadlinecodedead/)
 
-### Images
-
-The application icon (and derivatives) are provided by [RemixIcon](https://remixicon.com/).  
-All other images were provided by [MUI](https://mui.com/material-ui/material-icons/).
-
-## About
-
-This library is maintained by CodeDead. You can find more about us using the following links:
-* [Website](https://codedead.com/)
-* [Twitter](https://twitter.com/C0DEDEAD/)
-* [Facebook](https://facebook.com/deadlinecodedead/)
-
-Copyright © 2024 CodeDead
+版权所有 © 2024 CodeDead 
