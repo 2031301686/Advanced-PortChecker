@@ -1,8 +1,8 @@
 # 高级端口检查器
 
-![高级端口检查器](https://i.imgur.com/vdt1sXZ.png)
+![高级端口检查器](https://i.imgur.com/4q23oXj.png)
 
-![GitHub](https://img.shields.io/badge/语言-JavaScript+Rust-绿色)
+![GitHub](https://img.shields.io/badge/language-JavaScript+Rust-green)
 ![GitHub](https://img.shields.io/github/license/CodeDead/Advanced-PortChecker)
 ![GitHub发布（按日期最新）](https://img.shields.io/github/v/release/CodeDead/Advanced-PortChecker)
 [![测试](https://github.com/CodeDead/Advanced-PortChecker/actions/workflows/test.yml/badge.svg)](https://github.com/CodeDead/Advanced-PortChecker/actions/workflows/test.yml)
